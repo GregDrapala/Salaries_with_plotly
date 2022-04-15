@@ -1,0 +1,11 @@
+X = ["Mark", "John", "Daniel", "Greg"]
+Y = [1000, 1500, 2300, 5000]
+
+data = go.Bar(x=X, y=Y)
+layout = {
+    'title': 'salaries with plotly'
+}
+
+fig = go.Figure(data, layout)
+
+fig.show()
